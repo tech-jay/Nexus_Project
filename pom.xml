@@ -8,6 +8,11 @@
 	<name> Jays Tech web</name>
 	<url>http://maven.apache.org</url>
 	
+	<properties>
+		<sonar.host.url>http://13.232.79.147:9000/</sonar.host.url>
+		<sonar.login>squ_374fa099f6abe4d8c719c8d767c12abc5db5e471</sonar.login>
+
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -19,7 +24,7 @@
 	</dependencies>
 	<distributionManagement>
     	<repository>
-    	  <id>nexusRepo</id>
+    	  <id>nexus</id>
     	  <name>Releases</name>
     	  <url>http://13.127.176.56:8081/repository/Releses/</url>
     	</repository>
